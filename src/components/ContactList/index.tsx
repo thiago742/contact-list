@@ -38,7 +38,7 @@ const ContactList: React.FC<{ onEdit: (index: number) => void }> = ({ onEdit }) 
               <Link to={`/edit/${index}`}>
                 <Button>Editar</Button>
               </Link>
-              <ButtonDelete onClick={() => handleRemove(index)}>Remover</ButtonDelete>
+              <ButtonDelete onClick={() => handleRemove(index)}>Apagar</ButtonDelete>
             </div>
           </ListItem>
         ))}

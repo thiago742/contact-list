@@ -70,6 +70,7 @@ export const Button = styled.button`
   border-radius: 16px;
   cursor: pointer;
   display: flex;
+  margin-bottom: 12px;
 
 
   &:hover {
@@ -86,6 +87,7 @@ export const ButtonDelete = styled.button`
   border-radius: 16px;
   cursor: pointer;
   display: flex;
+  width: 80px;
 
 
   &:hover {
